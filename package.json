@@ -7,9 +7,9 @@
   "scripts": {
     "start": "electron .",
     "pack": "electron-builder --dir",
-    "build:mac": "electron-builder build --mac",
-    "build:win": "electron-builder build --windows",
-    "build:linux": "electron-builder build --linux"
+    "build:linux": "build --linux -p always",
+    "build:win": "build --windows -p always",
+    "build:mac": "build --mac -p always"
   },
   "author": "",
   "license": "ISC",
